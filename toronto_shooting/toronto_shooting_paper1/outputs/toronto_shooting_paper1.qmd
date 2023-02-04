@@ -16,6 +16,7 @@ format: pdf
 #install.packages("opendatatoronto")
 #install.packages("lubridate")
 #install.packages("knitr")
+#install.packages("gitcreds")
 
 library(knitr)
 library(janitor)
@@ -451,5 +452,8 @@ As a next step, we can either obtain more data on factors that may affect the oc
 
 \newpage
 
+```{r}
+gitcreds::gitcreds_set()
+```
 
 # Reference
